@@ -1,0 +1,32 @@
+.card {
+    background-color: var(--branco);
+    border-radius: 20px;
+    
+    margin: 1.5rem;
+    padding: 1rem;
+}
+
+.card__imagem {
+    border-radius: 10px;
+    
+    width: 100%;
+}
+
+.card__container {
+    flex-direction: column;
+    display: flex;
+    row-gap: 1rem;
+    
+    padding: 1.5rem .6rem 1rem .6rem;
+}
+
+.card__container--titulo {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+}
+
+.card__container--descricao {
+    color: var(--cinza_azulado);
+    text-align: center;
+}
